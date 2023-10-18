@@ -1,0 +1,40 @@
+/* General */
+.bg-matematica {
+	background-color: red;
+}
+.bg-lengua {
+	background-color: #4343fb;
+}
+.bg-naturales {
+	background-color: #30ed30;
+}
+.bg-sociales {
+	background-color: #7171f2;
+}
+.bg-ingles {
+	background-color: #fbd919;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Home */
+.es-materiasgrid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 15px;
+}
+.es-materiasgrid__item {
+	border-radius: 8px;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #FFF !important;
+	font-weight: 600px;
+	font-size: 32px;
+}
+.es-materiasgrid__item:hover {
+	transform: scale(.95);
+}
