@@ -1,4 +1,6 @@
-<?php include('./template-parts/header.php') ?>
+<?php include('./template-parts/header.php');
+include ('./conection.php');
+?>
 
 	<section class="es-materias">
 		<div class="container">
