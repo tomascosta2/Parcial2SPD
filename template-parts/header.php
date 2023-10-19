@@ -19,7 +19,7 @@
 			<li><a href="#" class="nav-link px-2 link-dark">Inicio</a></li>
 			<li><a href="#" class="nav-link px-2 link-secondary">Materias</a></li>
 			<li><a href="#" class="nav-link px-2 link-dark">Mi curso</a></li>
-			<li><a href="#" class="nav-link px-2 link-dark">Mi cuenta</a></li>
+			<li><a href="/mi-cuenta.php" class="nav-link px-2 link-dark">Mi cuenta</a></li>
 		</ul>
 
 		<div class="col-md-3 text-end">
