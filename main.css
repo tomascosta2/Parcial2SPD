@@ -1,18 +1,21 @@
 /* General */
-.bg-matematica {
-	background-color: red;
+.bg-Matematica {
+	background-color: red !important;
 }
-.bg-lengua {
-	background-color: #4343fb;
+.bg-Lengua {
+	background-color: #4343fb !important;
 }
-.bg-naturales {
-	background-color: #30ed30;
+.bg-Naturales {
+	background-color: #30ed30 !important;
 }
-.bg-sociales {
-	background-color: #7171f2;
+.bg-Sociales {
+	background-color: #7171f2 !important;
 }
-.bg-ingles {
-	background-color: #fbd919;
+.bg-Historia {
+	background-color: #fbd919 !important;
+}
+.bg-Ciencias {
+	background-color: #ca43fb !important;
 }
 
 a {
@@ -34,6 +37,7 @@ a {
 	color: #FFF !important;
 	font-weight: 600px;
 	font-size: 32px;
+	background-color: #DDD;
 }
 .es-materiasgrid__item:hover {
 	transform: scale(.95);

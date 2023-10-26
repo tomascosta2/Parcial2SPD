@@ -8,23 +8,25 @@
 	<link rel="stylesheet" href="main.css">
 </head>
 <body>
-	
 	<div class="container">
 		<header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
-		<a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+		<a href="/Parcial2SPD/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
 			Escuelita
 		</a>
 
 		<ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
 			<li><a href="#" class="nav-link px-2 link-dark">Inicio</a></li>
-			<li><a href="#" class="nav-link px-2 link-secondary">Materias</a></li>
+			<li><a href="#" class="nav-link px-2 link-dark">Materias</a></li>
 			<li><a href="#" class="nav-link px-2 link-dark">Mi curso</a></li>
-			<li><a href="/mi-cuenta.php" class="nav-link px-2 link-dark">Mi cuenta</a></li>
 		</ul>
 
-		<div class="col-md-3 text-end">
-			<button type="button" class="btn btn-outline-primary me-2">Login</button>
-			<button type="button" class="btn btn-primary">Sign-up</button>
+		<div class="col-md-3">
+			<div class="d-flex gap-2 justify-content-end">
+				<?php if ($_SESSION['user_id']) : ?>
+					<a href="/Parcial2SPD/mi-cuenta.php" class="nav-link px-2 link-dark">Mi cuenta</a>
+					<a href="/Parcial2SPD/cerrar-sesion.php" class="nav-link px-2 link-dark">Cerrar Sesion</a>
+				<?php endif; ?>
+			</div>
 		</div>
 		</header>
 	</div>
